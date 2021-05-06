@@ -5,6 +5,13 @@
 Concealed object detection in Terahertz imaging is an urgent need for public security and counter-terrorism. In this paper, we provide a public dataset for evaluating multi-object detection algorithms in active Terahertz imaging resolution 5 mm by 5 mm.  To the best of our knowledge, this is the first public Terahertz imaging dataset prepared to evaluate object detection algorithms. Object detection on this dataset is much more difficult than on those standard public object detection datasets due to its inferior imaging quality. Facing the problem of imbalanced samples in object detection and hard training samples, we evaluate four popular detectors: YOLOv3, YOLOv4, FRCN-OHEM, and RetinaNet on this dataset. Experimental results indicate that the RetinaNet achieves the highest mAP. In addition, we demonstrate that hiding objects in different parts of the human body affect detection accuracy. The dataset will be available online.
 
 ## Dataset
+Object classes and quantity of the dataset.
+|Class|GA|KK|SS|MD|CK|WB|KC|CP|CL|LW|UN|In total|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Item|Gun|Kitchen Knife|Scissors|Metal Dagger|Ceramic Knife|Water Bottle|Key Chain|Cell Phone|Cigarette Lighter|Leather Wallet|Unknown|--|
+|Quantity|116|100|96|64|129|107|78|129|163|78|289|1349|
+
+
 Sample display for each category. The bottom row shows a zoomed-in view of the object.
 ![image1](/Image/classes.png)
 
@@ -12,11 +19,7 @@ Sample display for each category. The bottom row shows a zoomed-in view of the o
 Sample display for diversification.
 ![image2](/Image/diversification.png)
 
-Object classes and quantity of the dataset.
-|Class|GA|KK|SS|MD|CK|WB|KC|CP|CL|LW|UN|In total|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Item|Gun|Kitchen Knife|Scissors|Metal Dagger|Ceramic Knife|Water Bottle|Key Chain|Cell Phone|Cigarette Lighter|Leather Wallet|Unknown|--|
-|Quantity|116|100|96|64|129|107|78|129|163|78|289|1349|
+
 ### Dataset structure:
 ```
 /THZ_dataset_det_VOC
