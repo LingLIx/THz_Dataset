@@ -12,6 +12,11 @@ Sample display for each category. The bottom row shows a zoomed-in view of the o
 Sample display for diversification.
 ![image2](/Image/diversification.png)
 
+Object classes and quantity of the dataset.
+|Class|GA|KK|SS|MD|CK|WB|KC|CP|CL|LW|UN|In total|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Item|Gun|Kitchen Knife|Scissors|Metal Dagger|Ceramic Knife|Water Bottle|Key Chain|Cell Phone|Cigarette Lighter|Leather Wallet|Unknown|--|
+|Quantity|116|100|96|64|129|107|78|129|163|78|289|1349|
 ### Dataset structure:
 ```
 /THZ_dataset_det_VOC
