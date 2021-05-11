@@ -48,5 +48,12 @@ Sample display for diversification.
 **If you find this dataset useful in your research, please consider citing:**
 
 ```
-
+@misc{liang2021active,
+      title={Active Terahertz Imaging Dataset for Concealed Object Detection}, 
+      author={Dong Liang and Fei Xue and Ling Li},
+      year={2021},
+      eprint={2105.03677},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
