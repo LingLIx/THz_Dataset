@@ -36,7 +36,7 @@ Sample display for diversification.
         /...
         /T_P_M6_MD_F_LL_CK_F_C_WB_F_RT_front_0906154134.jpg
 ```
-The filename format is as follows:
+### The filename format is as follows:
 
 Item Quantity_Whether the item exists_Model Number_Item1 Name_Item1 Direction_Item1 Position_(Item2 Name_Item2 Direction_Item2 Position_Item3 Name_Item3 Direction_Item3 Position_) Front and Back ID_Timestamp.jpg
 
