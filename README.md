@@ -37,14 +37,23 @@ Sample display for diversification.
         /T_P_M6_MD_F_LL_CK_F_C_WB_F_RT_front_0906154134.jpg
 ```
 The filename format is as follows:
+
 Item Quantity_Whether the item exists_Model Number_Item1 Name_Item1 Direction_Item1 Position_(Item2 Name_Item2 Direction_Item2 Position_Item3 Name_Item3 Direction_Item3 Position_) Front and Back ID_Timestamp.jpg
+
 Number of Items: S (Single Item), D (Double Item), T (Triple Item).
+
 Whether the item exists: P (item exists), N (item does not exist).
+
 Model numbers: M1 (male size 1), M2 (male size 2), M3 (male size 3), M4 (male size 4), M5 (male size 5), M6 (male size 6), F1 (female size 1) ), F2 (Female No. 2), F3 (Female No. 3), F4 (Female No. 4).
+
 Item name: GA (gun), KK (chopping knife), SS (scissors), MD (dagger), CK (ceramic fruit knife), WB (mineral water bottle), KC (keychain), CP (mobile phone), CL (lighter) ), LW (wallet).
+
 Item orientation: F (front), V (back), L (left), R (right).
+
 Item location: LA (left arm), RA (right arm), S (abdomen), C (chest), B (back), W (waist), N (hip), LT (left thigh), RT ( right thigh), LL (left calf), RL (right calf).
+
 Front and back identification: front (front image), back (reverse image).
+
 Timestamp: data collection time (month, day, hour, minute, second)
 
 
